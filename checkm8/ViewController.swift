@@ -30,9 +30,9 @@ class ViewController: NSViewController {
         task.waitUntilExit()
         sender.isEnabled = true
         let alert = NSAlert.init()
-        alert.messageText = "Notice"
-        alert.informativeText = "Device should be in pwndfu mode. Might have to run a few times..."
-        alert.addButton(withTitle: "OK")
+        alert.messageText = "注意"
+        alert.informativeText = "设备应处于DFU模式。可能要跑几次…"
+        alert.addButton(withTitle: "好的")
         alert.runModal()
     }
     
@@ -44,9 +44,9 @@ class ViewController: NSViewController {
         task.waitUntilExit()
         sender.isEnabled = true
         let alert = NSAlert.init()
-        alert.messageText = "Notice"
-        alert.informativeText = "Dumps should be in /Applications/checkm8.app/Contents/Resources/ipwndfu"
-        alert.addButton(withTitle: "OK")
+        alert.messageText = "注意"
+        alert.informativeText = "转储文件目录应该在/Applications/checkm8.app/Contents/Resources/ipwndfu中"
+        alert.addButton(withTitle: "好的")
         alert.runModal()
     }
     
@@ -58,17 +58,17 @@ class ViewController: NSViewController {
         task.waitUntilExit()
         sender.isEnabled = true
         let alert = NSAlert.init()
-        alert.messageText = "Notice"
-        alert.informativeText = "Demoted."
-        alert.addButton(withTitle: "OK")
+        alert.messageText = "注意"
+        alert.informativeText = "降级完毕."
+        alert.addButton(withTitle: "好的")
         alert.runModal()
     }
     
     @IBAction func more(_ sender: NSButton) {
         let alert = NSAlert.init()
-        alert.messageText = "Notice"
-        alert.informativeText = "Coming Soon!"
-        alert.addButton(withTitle: "OK")
+        alert.messageText = "注意"
+        alert.informativeText = "即将释放！"
+        alert.addButton(withTitle: "好的")
         alert.runModal()
            
         }

@@ -2,10 +2,12 @@ IPWNDFU BY axi0mx ALL CREDIT GOES TO HIM. https://github.com/axi0mX/ipwndfu
 
 This just a basic gui for people that dont like command lines.
 
-Message me on twitter if you need help @tie1r
+Message me on twitter if you need help @tie1r@acresons
 
 This is fully open soucre!
 Feel free to fork or send push request!
+
+In the original UI on the basis of the addition of Chinese translation@acresons
 
 To build:
 1. Clone the repo
